@@ -184,7 +184,7 @@ $ docker run --rm -p 8080:8080 nodejs-otel-getting-started
 Listening for requests on http://localhost:8080
 DockerCGroupV1Detector found resource. Resource {
   attributes: {
-    'container.id': 'fffbeaf682f32ef86916f306ff9a7f88cc58048ab78f7de464da3c320ldb5c54'
+    'container.id': 'fffbeaf682f32ef86916f306ff9a7f88cc58048ab78f7de464da3c3201db5c54'
   }
 }
 ```
@@ -249,9 +249,8 @@ DockerCGroupV1Detector found resource. Resource {
 ## Next steps
 
 There are more resource detectors you can add to your configuration, for example
-to get details about your [Cloud] environment or [Deployment][]. You will find a
-list
-[here](https://github.com/open-telemetry/opentelemetry-js-contrib/tree/main/detectors/node).
+to get details about your [Cloud] environment or [Deployment][]. See the
+[list of node detectors](https://github.com/open-telemetry/opentelemetry-js-contrib/tree/main/detectors/node).
 
 [getting started - node.js]: /docs/languages/js/getting-started/nodejs/
 [process and process runtime resources]: /docs/specs/semconv/resource/process/

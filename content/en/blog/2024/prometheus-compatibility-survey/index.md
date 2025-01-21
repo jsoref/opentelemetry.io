@@ -52,10 +52,10 @@ with the help of the [OpenTelemetry End User SIG](/community/end-user/).
 Deciding on the default translation approach is one of the last remaining
 blockers for stabilizing the compatibility specification.
 
-The survey received 86 responses (and 5 spam), and contained many helpful pieces
-of feedback. Thank you to everyone that participated! The questions and raw
-results can be found
-[here](https://github.com/open-telemetry/sig-end-user/blob/main/end-user-surveys/otel-prom-interoperability/otel-prom-interoperability-survey.csv).
+The
+[survey received 86 responses (and 5 spam)](https://github.com/open-telemetry/sig-end-user/blob/main/end-user-surveys/otel-prom-interoperability/otel-prom-interoperability-survey.csv),
+and contained many helpful pieces of feedback. Thank you to everyone that
+participated!
 
 ## Overall takeaways
 
@@ -175,10 +175,10 @@ existing conventions.
 
 For the most part, this feedback aligns with the future plans in the
 OpenTelemetry and Prometheus communities. The OpenTelemetry semantic conventions
-SIG is working on stabilizing conventions for a a wide variety of
-instrumentation. The OpenTelemetry Prometheus interoperability SIG is working on
-incorporating the results of this survey into the compatibility specification.
-The Prometheus community has
+SIG is working on stabilizing conventions for a wide variety of instrumentation.
+The OpenTelemetry Prometheus interoperability SIG is working on incorporating
+the results of this survey into the compatibility specification. The Prometheus
+community has
 [ambitious plans](https://prometheus.io/blog/2024/03/14/commitment-to-opentelemetry/)
 to add support for OpenTelemetry concepts.
 
